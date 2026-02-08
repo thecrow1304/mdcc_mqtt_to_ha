@@ -1,6 +1,6 @@
 name: IoTree MQTT Auto Discovery
 slug: iotree_mqtt_auto
-version: "0.0.1"
+version: "0.0.2"
 description: Dynamische MQTT-Discovery mit Konfig-UI
 startup: services
 boot: auto
@@ -28,4 +28,5 @@ schema:
   mqtt_username: str
   mqtt_password: password
   mqtt_topic: str
+
 
