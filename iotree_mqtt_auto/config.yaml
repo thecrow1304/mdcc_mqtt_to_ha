@@ -18,8 +18,13 @@ panel_title: IoTree MQTT
 options:
   mqtt_host: core-mosquitto
   mqtt_port: 1883
+  mqtt_username: ""
+  mqtt_password: ""
+  mqtt_topic: "physec/iotree-+/iot-platform/+/sensor/+/+"
 
 schema:
   mqtt_host: str
   mqtt_port: int
-
+  mqtt_username: str
+  mqtt_password: password
+  mqtt_topic: str
